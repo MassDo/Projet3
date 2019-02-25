@@ -1,7 +1,7 @@
-""" constatntes du jeux mc gyver"""
+""" input of the game """
 
 # window parameters
-title_screen = "Mac Giver Game"
+title_screen = "Mac Gyver Game"
 scrSize = [450, 450]
 max_sprites_size = 15
 sprite_size_pixel = 30
@@ -18,7 +18,6 @@ fontSize = 60
 fsRules = 20
 bold ,italique = True, True
 blankColor = white
-#rules = "texteeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee\nsimple"
 rules = "Welcome to the Mac Gyver game !\nYou need to find the 3 objects,\n\
 Before passing the gardian !\nLet's play !!!\n\n\n;)"
 # ---------------------------------------------------------------------------------------------------------------------

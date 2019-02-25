@@ -51,6 +51,7 @@ class Level:
         garde = pygame.image.load(image_garde).convert_alpha()
         aiguille = pygame.image.load(image_aiguille).convert_alpha()
         tube = pygame.image.load(image_tube).convert_alpha()
+
         seringue = pygame.image.load(image_seringue).convert_alpha()
 
         # On parcourt la liste du niveau

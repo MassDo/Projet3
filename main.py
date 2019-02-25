@@ -59,7 +59,6 @@ while continuer:
 				level_launched = 0
 				continuer_jeu = 0
 				continuer = 0
-				# Variable de choix du niveau
 			# MOUSE LEFT CLICK UP
 			choix = 0
 			if event.type == pygame.MOUSEBUTTONUP and event.button == 1:		# If button UP
@@ -76,8 +75,9 @@ while continuer:
 # ---------------------------------------------------------------------------------------------------------------------
 # Features Levels
 # ---------------------------------------------------------------------------------------------------------------------
-	# Loading back
+	# Loading background
 	fond = pygame.image.load(image_fond).convert()
+	fond.fill(black)
 	# Level generation
 	level = Level(choix)
 	level.generate()
