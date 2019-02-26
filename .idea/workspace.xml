@@ -2,338 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c7d740c-eab4-4517-a227-cd6a2626bf08" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/_bz2.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/_ctypes.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/_decimal.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/_hashlib.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/_lzma.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/_multiprocessing.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/_socket.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/_ssl.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/ctypes/macholib/README.ctypes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/ctypes/macholib/fetch_macholib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/ctypes/macholib/fetch_macholib.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/distutils/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/distutils/command/command_template" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/distutils/command/wininst-10.0-amd64.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/distutils/command/wininst-10.0.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/distutils/command/wininst-14.0-amd64.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/distutils/command/wininst-14.0.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/distutils/command/wininst-6.0.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/distutils/command/wininst-7.1.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/distutils/command/wininst-8.0.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/distutils/command/wininst-9.0-amd64.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/distutils/command/wininst-9.0.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/distutils/tests/Setup.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/email/architecture.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/lib2to3/Grammar.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/lib2to3/Grammar3.6.7.final.0.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/lib2to3/PatternGrammar.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/lib2to3/PatternGrammar3.6.7.final.0.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/lib2to3/tests/data/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/library.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pydoc_data/_pydoc.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pyexpat.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/LGPL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/SDL.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/SDL_image.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/SDL_mixer.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/SDL_ttf.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/VCRUNTIME140.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/_freetype.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/base.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/bufferproxy.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/cdrom.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/color.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/constants.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/display.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/docs/logos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/docs/pygame_logo.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/docs/pygame_powered.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/docs/pygame_small.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/docs/pygame_tiny.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/docs/ref/docscomments.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/draw.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/event.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/data/alien1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/data/alien1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/data/alien1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/data/alien2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/data/alien2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/data/alien3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/data/alien3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/data/arraydemo.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/data/asprite.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/data/background.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/data/blue.mpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/data/bomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/data/boom.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/data/brick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/data/car_door.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/data/chimp.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/data/city.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/data/danger.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/data/explosion1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/data/fist.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/data/house_lo.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/data/house_lo.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/data/house_lo.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/data/liquid.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/data/midikeys.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/data/oldplayer.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/data/player1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/data/punch.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/data/sans.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/data/secosmic_lo.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/data/shot.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/data/static.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/data/whiff.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/data/yuv_1.pgm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/macosx/aliens_app_example/English.lproj/MainMenu.nib/JavaCompiling.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/macosx/aliens_app_example/English.lproj/MainMenu.nib/_MainMenu_EOArchive_English.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/macosx/aliens_app_example/English.lproj/MainMenu.nib/classes.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/macosx/aliens_app_example/English.lproj/MainMenu.nib/info.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/macosx/aliens_app_example/English.lproj/MainMenu.nib/keyedobjects.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/macosx/aliens_app_example/English.lproj/aliens.icns" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/examples/macosx/aliens_app_example/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/fastevent.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/font.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/freesansbold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/gfxdraw.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/image.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/imageext.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/install.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/joystick.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/key.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/libfreetype-6.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/libgcc_s_sjlj-1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/libjpeg-8.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/libmpg123-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/libogg-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/libpng16-16.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/libstdc++-6.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/libtiff-5.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/libvorbis-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/libvorbisfile-3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/libwebp-5.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/mask.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/math.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/mixer.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/mixer_music.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/mouse.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/newbuffer.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/overlay.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/pixelarray.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/pixelcopy.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/portmidi.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/pygame.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/pygame_icon.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/pygame_icon.icns" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/pygame_icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/pygame_icon.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/pypm.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/python36.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/readme.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/rect.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/rwobject.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/scrap.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/surface.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/surflock.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/tests/fixtures/fonts/A_PyGameMono-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/tests/fixtures/fonts/PyGameMono-18-100dpi.bdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/tests/fixtures/fonts/PyGameMono-18-75dpi.bdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/tests/fixtures/fonts/PyGameMono-8.bdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/tests/fixtures/fonts/PyGameMono.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/tests/fixtures/fonts/test_fixed.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/tests/fixtures/fonts/test_sans.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/tests/fixtures/fonts/u13079_PyGameMono-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/tests/fixtures/xbm_cursors/white_sizing.xbm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/tests/fixtures/xbm_cursors/white_sizing_mask.xbm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/time.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/transform.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/pygame/zlib1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/select.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/lib/unicodedata.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/main.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exe.win32-3.6/python36.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Features/Menu_levels.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Features/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/images/carre.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/images/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/images/image_c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/images/image_menu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/images/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/images/rules.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/maps/n1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/maps/n2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/maps/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/sprites/MacGyver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/sprites/accueil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/sprites/aiguille.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/sprites/arrivee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/sprites/depart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/sprites/ether.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/sprites/fond.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/sprites/gardien.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/sprites/mur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/sprites/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/sprites/seringue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/sprites/tube.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/Features/Menu_levels.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/images/carre.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/images/image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/images/image_c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/images/image_menu.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/images/rules.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/_bz2.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/_ctypes.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/_decimal.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/_hashlib.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/_lzma.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/_multiprocessing.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/_socket.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/_ssl.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/ctypes/macholib/README.ctypes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/ctypes/macholib/fetch_macholib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/ctypes/macholib/fetch_macholib.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/distutils/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/distutils/command/command_template" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/distutils/command/wininst-10.0-amd64.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/distutils/command/wininst-10.0.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/distutils/command/wininst-14.0-amd64.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/distutils/command/wininst-14.0.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/distutils/command/wininst-6.0.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/distutils/command/wininst-7.1.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/distutils/command/wininst-8.0.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/distutils/command/wininst-9.0-amd64.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/distutils/command/wininst-9.0.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/distutils/tests/Setup.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/email/architecture.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/lib2to3/Grammar.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/lib2to3/Grammar3.6.7.final.0.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/lib2to3/PatternGrammar.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/lib2to3/PatternGrammar3.6.7.final.0.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/lib2to3/tests/data/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/library.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pydoc_data/_pydoc.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pyexpat.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/LGPL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/SDL.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/SDL_image.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/SDL_mixer.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/SDL_ttf.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/VCRUNTIME140.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/_freetype.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/base.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/bufferproxy.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/cdrom.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/color.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/constants.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/display.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/docs/logos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/docs/pygame_logo.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/docs/pygame_powered.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/docs/pygame_small.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/docs/pygame_tiny.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/docs/ref/docscomments.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/draw.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/event.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/data/alien1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/data/alien1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/data/alien1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/data/alien2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/data/alien2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/data/alien3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/data/alien3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/data/arraydemo.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/data/asprite.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/data/background.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/data/blue.mpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/data/bomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/data/boom.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/data/brick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/data/car_door.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/data/chimp.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/data/city.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/data/danger.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/data/explosion1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/data/fist.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/data/house_lo.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/data/house_lo.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/data/house_lo.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/data/liquid.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/data/midikeys.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/data/oldplayer.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/data/player1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/data/punch.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/data/sans.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/data/secosmic_lo.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/data/shot.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/data/static.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/data/whiff.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/data/yuv_1.pgm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/macosx/aliens_app_example/English.lproj/MainMenu.nib/JavaCompiling.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/macosx/aliens_app_example/English.lproj/MainMenu.nib/_MainMenu_EOArchive_English.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/macosx/aliens_app_example/English.lproj/MainMenu.nib/classes.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/macosx/aliens_app_example/English.lproj/MainMenu.nib/info.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/macosx/aliens_app_example/English.lproj/MainMenu.nib/keyedobjects.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/macosx/aliens_app_example/English.lproj/aliens.icns" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/examples/macosx/aliens_app_example/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/fastevent.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/font.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/freesansbold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/gfxdraw.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/image.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/imageext.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/install.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/joystick.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/key.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/libfreetype-6.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/libgcc_s_sjlj-1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/libjpeg-8.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/libmpg123-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/libogg-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/libpng16-16.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/libstdc++-6.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/libtiff-5.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/libvorbis-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/libvorbisfile-3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/libwebp-5.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/mask.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/math.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/mixer.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/mixer_music.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/mouse.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/newbuffer.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/overlay.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/pixelarray.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/pixelcopy.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/portmidi.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/pygame.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/pygame_icon.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/pygame_icon.icns" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/pygame_icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/pygame_icon.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/pypm.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/python36.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/readme.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/rect.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/rwobject.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/scrap.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/surface.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/surflock.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/tests/fixtures/fonts/A_PyGameMono-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/tests/fixtures/fonts/PyGameMono-18-100dpi.bdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/tests/fixtures/fonts/PyGameMono-18-75dpi.bdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/tests/fixtures/fonts/PyGameMono-8.bdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/tests/fixtures/fonts/PyGameMono.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/tests/fixtures/fonts/test_fixed.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/tests/fixtures/fonts/test_sans.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/tests/fixtures/fonts/u13079_PyGameMono-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/tests/fixtures/xbm_cursors/white_sizing.xbm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/tests/fixtures/xbm_cursors/white_sizing_mask.xbm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/time.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/transform.cp36-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/pygame/zlib1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/select.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/lib/unicodedata.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/main.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/maps/n1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/maps/n2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/python36.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/sprites/MacGyver.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/sprites/accueil.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/sprites/aiguille.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/sprites/arrivee.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/sprites/depart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/sprites/ether.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/sprites/fond.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/sprites/gardien.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/sprites/mur.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/sprites/seringue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_standalone/sprites/tube.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/inputs.py" beforeDir="false" afterPath="$PROJECT_DIR$/inputs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -346,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+            <state relative-caret-position="295">
+              <caret line="149" column="33" selection-start-line="149" selection-start-column="33" selection-end-line="149" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -355,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="295">
+              <caret line="214" column="62" selection-start-line="214" selection-start-column="62" selection-end-line="214" selection-end-column="62" />
               <folding>
                 <element signature="e#50#63#0" expanded="true" />
               </folding>
@@ -367,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/inputs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            <state relative-caret-position="295">
+              <caret line="51" column="49" lean-forward="true" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -398,8 +92,8 @@
       <list>
         <option value="$PROJECT_DIR$/Features/Menu_levels.py" />
         <option value="$PROJECT_DIR$/maps/n1.txt" />
-        <option value="$PROJECT_DIR$/classes.py" />
         <option value="$PROJECT_DIR$/inputs.py" />
+        <option value="$PROJECT_DIR$/classes.py" />
         <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
@@ -422,6 +116,11 @@
             <path>
               <item name="Projet3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Projet3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projet3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet3" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -502,7 +201,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.102707006" />
@@ -583,8 +282,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="295">
+          <caret line="214" column="62" selection-start-line="214" selection-start-column="62" selection-end-line="214" selection-end-column="62" />
           <folding>
             <element signature="e#50#63#0" expanded="true" />
           </folding>
@@ -593,15 +292,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        <state relative-caret-position="295">
+          <caret line="149" column="33" selection-start-line="149" selection-start-column="33" selection-end-line="149" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/inputs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="295">
+          <caret line="51" column="49" lean-forward="true" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
         </state>
       </provider>
     </entry>

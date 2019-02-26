@@ -213,10 +213,3 @@ class Button:
                     yf += self.font_size
             else:
                 surface.blit(self.textSurf, self.positionText)
-
-
-
-
-
-
-

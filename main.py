@@ -65,7 +65,7 @@ while continuer:
 				if b1.imageRect.collidepoint(mouse):
 					b1.stick(scr, "press")
 					continuer_accueil = 0
-					choix = 'maps/n1'
+					choix = 'resources/maps/n1'
 				if b2.imageRect.collidepoint(mouse):
 					b2.stick(scr, "press")
 					continuer_accueil = 0
@@ -148,4 +148,3 @@ while continuer:
 					continuer = 0
 
 			pygame.display.flip()
-
