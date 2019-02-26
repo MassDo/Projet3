@@ -1,0 +1,10 @@
+Hello !
+
+Launch the game with main.py in "Projet3" repository
+
+If you want to use an executable, go to the "game_executable" repository,
+
+Then click on the main.exe.
+
+Good game !
+

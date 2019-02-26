@@ -13,6 +13,7 @@ white = (255, 255, 255)
 black = (0, 0, 0)
 green = (0, 255, 0)
 blue = (50, 0, 255)
+red = (255, 0, 0)
 fontColor = (232, 12, 214)
 fontSize = 60
 fsRules = 20

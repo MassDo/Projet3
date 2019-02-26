@@ -5,8 +5,8 @@ import pygame
 import random
 from inputs import *
 
-# ---------------------------------------------------------------------------------------------------------------------
 class Level:
+
     """class for the creation of a level"""
 
     def __init__(self, file):
