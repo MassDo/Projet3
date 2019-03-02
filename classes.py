@@ -103,7 +103,7 @@ class Player:
         """moving player"""
 
         # Déplacement vers la droite
-        if direction == 'droite':
+        if direction == 'right':
             # Pour ne pas dépasser l'écran
             if self.case_x < (max_sprites_size - 1):
                 # On vérifie que la case de destination n'est pas un mur
@@ -114,21 +114,21 @@ class Player:
                     self.x = self.case_x * sprite_size_pixel
 
         # Déplacement vers la gauche
-        if direction == 'gauche':
+        if direction == 'left':
             if self.case_x > 0:
                 if self.level.structure[self.case_y][self.case_x-1] != 'm':
                     self.case_x -= 1
                     self.x = self.case_x * sprite_size_pixel
 
         # Déplacement vers le haut
-        if direction == 'haut':
+        if direction == 'up':
             if self.case_y > 0:
                 if self.level.structure[self.case_y-1][self.case_x] != 'm':
                     self.case_y -= 1
                     self.y = self.case_y * sprite_size_pixel
 
         # Déplacement vers le bas
-        if direction == 'bas':
+        if direction == 'down':
             if self.case_y < (max_sprites_size - 1):
                 if self.level.structure[self.case_y+1][self.case_x] != 'm':
                     self.case_y += 1

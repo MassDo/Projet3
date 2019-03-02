@@ -2,31 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c7d740c-eab4-4517-a227-cd6a2626bf08" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Ressources/Features/Menu_levels.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Features/Readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/images/carre.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/images/image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/images/image_c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/images/image_menu.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/images/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/images/rules.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/maps/n1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/maps/n2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/maps/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/sprites/MacGyver.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/sprites/accueil.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/sprites/aiguille.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/sprites/arrivee.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/sprites/depart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/sprites/ether.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/sprites/fond.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/sprites/gardien.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/sprites/mur.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/sprites/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/sprites/seringue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/sprites/tube.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inputs.py" beforeDir="false" afterPath="$PROJECT_DIR$/inputs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_executable/Features/Menu_levels.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_executable/images/carre.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_executable/images/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_executable/images/image_c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_executable/images/image_menu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_executable/images/rules.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_executable/lib/library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/game_executable/lib/library.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_executable/maps/n1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_executable/maps/n2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_executable/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_executable/sprites/MacGyver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_executable/sprites/accueil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_executable/sprites/aiguille.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_executable/sprites/arrivee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_executable/sprites/depart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_executable/sprites/ether.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_executable/sprites/fond.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_executable/sprites/gardien.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_executable/sprites/mur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_executable/sprites/seringue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_executable/sprites/tube.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,11 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="149" column="33" selection-start-line="149" selection-start-column="33" selection-end-line="149" selection-end-column="33" />
+            <state relative-caret-position="-141">
+              <caret line="24" column="109" lean-forward="true" selection-start-line="24" selection-start-column="109" selection-end-line="24" selection-end-column="109" />
             </state>
           </provider>
         </entry>
@@ -49,20 +48,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="214" column="62" selection-start-line="214" selection-start-column="62" selection-end-line="214" selection-end-column="62" />
+            <state relative-caret-position="855">
+              <caret line="130" column="29" selection-start-line="130" selection-start-column="29" selection-end-line="130" selection-end-column="29" />
               <folding>
                 <element signature="e#50#63#0" expanded="true" />
+                <element signature="e#118#3370#0" />
+                <element signature="e#1752#3370#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inputs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="51" column="49" lean-forward="true" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
+            <state relative-caret-position="480">
+              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -98,18 +99,16 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="31" />
-    <option name="y" value="-15" />
-    <option name="width" value="981" />
-    <option name="height" value="1032" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-11" />
+    <option name="width" value="980" />
+    <option name="height" value="1031" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,12 +125,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -201,20 +201,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="0" width="653" height="687" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.102707006" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34690553" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49920383" visible="true" weight="0.28163993" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49920383" visible="true" weight="0.2875226" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.399287" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32798573" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3244207" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32976827" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007962" side_tool="true" weight="0.14081997" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32798573" />
@@ -242,10 +242,18 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sprites/accueil.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sprites/accueil.png" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/pygame/sysfont.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-796">
@@ -253,54 +261,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/image_menu.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/image.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sprites/MacGyver.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/image_c.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Features/Menu_levels.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/images/image_menu.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/image.png" />
+    <entry file="file://$PROJECT_DIR$/sprites/MacGyver.png" />
+    <entry file="file://$PROJECT_DIR$/images/image_c.png" />
+    <entry file="file://$PROJECT_DIR$/Features/Menu_levels.py" />
     <entry file="file://$PROJECT_DIR$/setup.py" />
-    <entry file="file://$PROJECT_DIR$/maps/n1.txt">
+    <entry file="file://$PROJECT_DIR$/maps/n1.txt" />
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        <state relative-caret-position="-141">
+          <caret line="24" column="109" lean-forward="true" selection-start-line="24" selection-start-column="109" selection-end-line="24" selection-end-column="109" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="214" column="62" selection-start-line="214" selection-start-column="62" selection-end-line="214" selection-end-column="62" />
+        <state relative-caret-position="855">
+          <caret line="130" column="29" selection-start-line="130" selection-start-column="29" selection-end-line="130" selection-end-column="29" />
           <folding>
             <element signature="e#50#63#0" expanded="true" />
+            <element signature="e#118#3370#0" />
+            <element signature="e#1752#3370#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="149" column="33" selection-start-line="149" selection-start-column="33" selection-end-line="149" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/inputs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="51" column="49" lean-forward="true" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
+        <state relative-caret-position="480">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
         </state>
       </provider>
     </entry>

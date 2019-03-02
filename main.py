@@ -84,33 +84,29 @@ while continuer:
 	level.display(scr)
 	# player generation
 	mac_giver = Player(image_player, level)
-	# BOUCLE DE JEU ---------------------------------------------------------------------------------------------------
+	# GAME LOOP ---------------------------------------------------------------------------------------------------
 	win_lose = False
 	while continuer_jeu:
 		# Loop speed limitation
 		pygame.time.Clock().tick(30)
 		mouse = pygame.mouse.get_pos()
-
 		for event in pygame.event.get():
-			# Si l'utilisateur quitte, on met la variable qui continue le jeu
-			# ET la variable générale à 0 pour fermer la fenêtre
 			if event.type == pygame.QUIT:
 				continuer_jeu = 0
 				continuer = 0
 			elif event.type == pygame.KEYDOWN:
-				# Si l'utilisateur presse Echap ici, on revient seulement au menu
+				# if escape come back to menu
 				if event.key == pygame.K_ESCAPE:
 					continuer_jeu = 0
-				# Touches de déplacement de Donkey Kong
+				#deplacement touch of mac gyver
 				elif event.key == pygame.K_RIGHT and win_lose == False:
-					mac_giver.move('droite')
+					mac_giver.move('right')
 				elif event.key == pygame.K_LEFT and win_lose == False:
-					mac_giver.move('gauche')
+					mac_giver.move('left')
 				elif event.key == pygame.K_UP and win_lose == False:
-					mac_giver.move('haut')
+					mac_giver.move('up')
 				elif event.key == pygame.K_DOWN and win_lose == False:
-					mac_giver.move('bas')			
-			
+					mac_giver.move('down')
 			# Affichages aux nouvelles positions
 			scr.blit(fond, (0, 0))
 			level.display(scr)
