@@ -1,4 +1,4 @@
-""" input of the game """
+""" constants of the programme """
 
 # window parameters
 title_screen = "Mac Gyver Game"
@@ -17,8 +17,7 @@ red = (255, 0, 0)
 fontColor = (232, 12, 214)
 fontSize = 60
 fsRules = 20
-bold, italique = True, True
-
+bold, italic = True, True
 rules = "Welcome to the Mac Gyver game !\nYou need to find the 3 objects,\n\
 Before passing the guardian !\nLet's play !!!\n\n\n;)"
 # ----------------------------------------------------------------------------
@@ -32,21 +31,21 @@ pos_level1 = 50, 100
 pos_level2 = 50, 200
 pos_back = -30, 380
 # Images
-image_icone = "resources/sprites/MacGyver.png"
-image_boutton = "resources/images/image.png"
+image_icon = "resources/sprites/player.png"
+image_button = "resources/images/image.png"
 image_bout_press = "resources/images/image_c.png"
 image_rules = "resources/images/carre.png"
 image_rules2 = "resources/images/rules.png"
 # ----------------------------------------------------------------------------
 # List of game's images
-image_player = "resources/sprites/MacGyver.png"
-image_accueil = "resources/images/image_menu.jpg"
+image_player = "resources/sprites/player.png"
+image_home = "resources/images/image_menu.jpg"
 image_fond = "resources/sprites/fond.jpg"
-image_mur = "resources/sprites/mur.png"
-image_depart = "resources/sprites/depart.png"
-image_arrivee = "resources/sprites/arrivee.png"
-image_garde = "resources/sprites/gardien.png"
+image_wall = "resources/sprites/wall.png"
+image_start = "resources/sprites/start.png"
+image_arrival = "resources/sprites/arrival.png"
+image_guardian = "resources/sprites/guardian.png"
 image_ether = "resources/sprites/ether.png"
-image_aiguille = "resources/sprites/aiguille.png"
+image_needle = "resources/sprites/needle.png"
 image_tube = "resources/sprites/tube.png"
-image_seringue = "resources/sprites/seringue.png"
+image_syringe = "resources/sprites/syringe.png"

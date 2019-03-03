@@ -2,10 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c7d740c-eab4-4517-a227-cd6a2626bf08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/buttons.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_executable/Resources/Features/Menu_levels.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_executable/Resources/Features/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_executable/Resources/images/carre.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_executable/Resources/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_executable/Resources/images/image_c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_executable/Resources/images/image_menu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_executable/Resources/images/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_executable/Resources/images/rules.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_executable/Resources/maps/n1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_executable/Resources/maps/n2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_executable/Resources/maps/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_executable/Resources/sprites/MacGyver.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_executable/Resources/sprites/accueil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_executable/Resources/sprites/aiguille.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_executable/Resources/sprites/arrivee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_executable/Resources/sprites/depart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_executable/Resources/sprites/ether.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_executable/Resources/sprites/fond.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_executable/Resources/sprites/gardien.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_executable/Resources/sprites/mur.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_executable/Resources/sprites/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_executable/Resources/sprites/seringue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_executable/Resources/sprites/tube.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/doria.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/doria.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Features/Menu_levels.py" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Features/Menu_levels.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Features/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Features/Readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/sprites/MacGyver.png" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/sprites/player.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/sprites/accueil.png" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/sprites/home.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/sprites/aiguille.png" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/sprites/needle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/sprites/arrivee.png" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/sprites/arrival.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/sprites/depart.png" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/sprites/start.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/sprites/gardien.png" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/sprites/guardian.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/sprites/mur.png" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/sprites/wall.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/sprites/seringue.png" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/sprites/syringe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buttons.py" beforeDir="false" afterPath="$PROJECT_DIR$/buttons.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inputs.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_executable/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/game_executable/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_executable/lib/ctypes/macholib/README.ctypes" beforeDir="false" afterPath="$PROJECT_DIR$/game_executable/lib/ctypes/macholib/README.ctypes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_executable/lib/distutils/tests/Setup.sample" beforeDir="false" afterPath="$PROJECT_DIR$/game_executable/lib/distutils/tests/Setup.sample" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_executable/lib/email/architecture.rst" beforeDir="false" afterPath="$PROJECT_DIR$/game_executable/lib/email/architecture.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_executable/lib/lib2to3/Grammar.txt" beforeDir="false" afterPath="$PROJECT_DIR$/game_executable/lib/lib2to3/Grammar.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_executable/lib/lib2to3/tests/data/README" beforeDir="false" afterPath="$PROJECT_DIR$/game_executable/lib/lib2to3/tests/data/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_executable/lib/pydoc_data/_pydoc.css" beforeDir="false" afterPath="$PROJECT_DIR$/game_executable/lib/pydoc_data/_pydoc.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_executable/lib/pygame/LGPL" beforeDir="false" afterPath="$PROJECT_DIR$/game_executable/lib/pygame/LGPL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_executable/lib/pygame/docs/ref/docscomments.json" beforeDir="false" afterPath="$PROJECT_DIR$/game_executable/lib/pygame/docs/ref/docscomments.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_executable/lib/pygame/install.html" beforeDir="false" afterPath="$PROJECT_DIR$/game_executable/lib/pygame/install.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_executable/lib/pygame/readme.html" beforeDir="false" afterPath="$PROJECT_DIR$/game_executable/lib/pygame/readme.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,20 +62,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/constants.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" column="45" lean-forward="true" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
+            <state relative-caret-position="-683">
+              <caret line="45" column="22" lean-forward="true" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -37,25 +74,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/buttons.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="481">
+              <caret line="91" column="21" lean-forward="true" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-756">
+              <caret line="139" column="36" lean-forward="true" selection-start-line="139" selection-start-column="36" selection-end-line="139" selection-end-column="36" />
+              <folding>
+                <element signature="e#50#63#0" expanded="true" />
+                <element signature="e#2365#3372#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes.py">
+        <entry file="file://$PROJECT_DIR$/constants.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="223" selection-start-line="223" selection-end-line="223" />
-              <folding>
-                <element signature="e#50#63#0" expanded="true" />
-                <element signature="e#119#3372#0" />
-                <element signature="e#388#1579#0" />
-                <element signature="e#1754#3372#0" />
-                <element signature="e#3515#6190#0" />
-                <element signature="e#6333#9246#0" />
-              </folding>
+            <state relative-caret-position="588">
+              <caret line="42" column="41" lean-forward="true" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -64,22 +106,59 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>objet</find>
-      <find>fond</find>
-      <find>gras</find>
-      <find>windowSize</find>
-      <find>screen</find>
-      <find>position_boutton</find>
-      <find>player</find>
-      <find>font_c</find>
       <find>fontsize</find>
       <find>print</find>
       <find>image_tu</find>
       <find>image_player</find>
       <find>continuer_jeu</find>
+      <find>blankColor</find>
+      <find>blankcolor</find>
+      <find>italique</find>
+      <find>image_boutton</find>
+      <find>accueil</find>
+      <find>continuer</find>
+      <find>continue</find>
+      <find>launched_main_jeu</find>
+      <find>choix</find>
+      <find>deplacement</find>
+      <find>mur</find>
+      <find>depart</find>
+      <find>start</find>
+      <find>arrivee</find>
+      <find>arrival</find>
+      <find>garde</find>
+      <find>needle</find>
+      <find>aiguille</find>
+      <find>seringue</find>
+      <find>num_ligne</find>
+      <find>image_wall</find>
+      <find>wall</find>
+      <find>file_use</find>
+      <find>fichier_use</find>
+      <find>file</find>
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>blankcolor</replace>
+      <replace>blank_color</replace>
+      <replace>italic</replace>
+      <replace>image_button</replace>
+      <replace>image_icon</replace>
+      <replace>home</replace>
+      <replace>continue</replace>
+      <replace>launched_main</replace>
+      <replace>launched_main_game</replace>
+      <replace>choice</replace>
+      <replace>movment</replace>
+      <replace>wall</replace>
+      <replace>start</replace>
+      <replace>arrival</replace>
+      <replace>guardian</replace>
+      <replace>needle</replace>
+      <replace>syringe</replace>
+      <replace>num_line</replace>
+      <replace>file_use</replace>
+      <replace>fichier</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -90,14 +169,15 @@
       <list>
         <option value="$PROJECT_DIR$/Features/Menu_levels.py" />
         <option value="$PROJECT_DIR$/maps/n1.txt" />
-        <option value="$PROJECT_DIR$/classes.py" />
         <option value="$PROJECT_DIR$/inputs.py" />
         <option value="$PROJECT_DIR$/buttons.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/constants.py" />
+        <option value="$PROJECT_DIR$/classes.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-11" />
     <option name="width" value="980" />
     <option name="height" value="1031" />
@@ -113,6 +193,11 @@
             <path>
               <item name="Projet3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Projet3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projet3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet3" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -189,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1551534268859</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ajouté fichier buttons">
+      <created>1551631846524</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551631846524</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -202,15 +294,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="0" width="653" height="687" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15923567" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3257329" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49920383" visible="true" weight="0.40819964" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32976827" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49920383" weight="0.06148282" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.399287" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -255,7 +347,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test commit a partir de pycharm" />
-    <option name="LAST_COMMIT_MESSAGE" value="test commit a partir de pycharm" />
+    <MESSAGE value="ajouté fichier buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajouté fichier buttons" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/sprites/accueil.png" />
@@ -273,39 +366,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes.py">
+    <entry file="file://$PROJECT_DIR$/constants.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="223" selection-start-line="223" selection-end-line="223" />
-          <folding>
-            <element signature="e#50#63#0" expanded="true" />
-            <element signature="e#119#3372#0" />
-            <element signature="e#388#1579#0" />
-            <element signature="e#1754#3372#0" />
-            <element signature="e#3515#6190#0" />
-            <element signature="e#6333#9246#0" />
-          </folding>
+        <state relative-caret-position="588">
+          <caret line="42" column="41" lean-forward="true" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/buttons.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="45" lean-forward="true" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
+        <state relative-caret-position="481">
+          <caret line="91" column="21" lean-forward="true" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="-683">
+          <caret line="45" column="22" lean-forward="true" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-756">
+          <caret line="139" column="36" lean-forward="true" selection-start-line="139" selection-start-column="36" selection-end-line="139" selection-end-column="36" />
+          <folding>
+            <element signature="e#50#63#0" expanded="true" />
+            <element signature="e#2365#3372#0" />
+          </folding>
         </state>
       </provider>
     </entry>

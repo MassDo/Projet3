@@ -13,30 +13,30 @@ class Level:
 
     """class for the creation of a level"""
 
-    def __init__(self, file):
-        self.file = file
+    def __init__(self, fichier):
+        self.fichier = fichier
         self.structure = []
 
     def generate(self):
 
-        """generation from the map file of a structure of characters associated with the sprites"""
+        """generation from the map fichier of a structure of characters associated with the sprites"""
 
-        with open(self.file + ".txt") as var_fichier:
+        with open(self.fichier + ".txt") as var_fichier:
             structure_niveau = []
-            # On parcourt les lignes du fichier
+            # Browse the lines of the fichiers
             for ligne in var_fichier:
                 ligne_niveau = []
-                # On parcourt les sprites (lettres) contenus dans le fichier
+                # Browse the sprites (letters) in the fichier
                 for sprite in ligne:
-                    # On ignore les "\n" de fin de ligne
+                    # ignore \n at the end of line
                     if sprite != '\n':
-                        # On ajoute le sprite à la liste de la ligne
+                        # add sprite to the list of ligne
                         ligne_niveau.append(sprite)
-                # On ajoute la ligne à la liste du niveau
+                # add ligne to the list of the level
                 structure_niveau.append(ligne_niveau)
-            # On sauvegarde cette structure
+            # record
             self.structure = structure_niveau
-            # Ajout des objets au hasard
+            # add randomly the objects
             k = 0
             while k < 3:
                 ligne = random.randrange(max_sprites_size)
@@ -49,40 +49,39 @@ class Level:
 
         """ display of the level from structure and sprites"""
 
-        mur = pygame.image.load(image_mur).convert()
-        depart = pygame.image.load(image_depart).convert()
-        arrivee = pygame.image.load(image_arrivee).convert_alpha()
-        garde = pygame.image.load(image_garde).convert_alpha()
-        aiguille = pygame.image.load(image_aiguille).convert_alpha()
+        wall = pygame.image.load(image_wall).convert()
+        start = pygame.image.load(image_start).convert()
+        arrival = pygame.image.load(image_arrival).convert_alpha()
+        guardian = pygame.image.load(image_guardian).convert_alpha()
+        needle = pygame.image.load(image_needle).convert_alpha()
         tube = pygame.image.load(image_tube).convert_alpha()
+        syringe = pygame.image.load(image_syringe).convert_alpha()
 
-        seringue = pygame.image.load(image_seringue).convert_alpha()
-
-        # On parcourt la liste du niveau
-        num_ligne = 0
+        # browse the list of the level
+        num_line = 0
         for ligne in self.structure:
-            # On parcourt les listes de lignes
+            # browse list of lines
             num_case = 0
             for sprite in ligne:
-                # On calcule la position réelle en pixels
+                # real position in pixels
                 x = num_case * sprite_size_pixel
-                y = num_ligne * sprite_size_pixel
-                if sprite == 'm':		   # m = Mur
-                    screen.blit(mur, (x, y))
-                elif sprite == 'd':		   # d = Départ
-                    screen.blit(depart, (x, y))
-                elif sprite == 'a':		   # a = Arrivée
-                    screen.blit(arrivee, (x, y))
-                elif sprite == 'g':		   # g = garde
-                    screen.blit(garde, (x, y))
-                elif sprite == 'l':		   # l = aiguille
-                    screen.blit(aiguille, (x, y))
+                y = num_line * sprite_size_pixel
+                if sprite == 'm':		   # m = wall
+                    screen.blit(wall, (x, y))
+                elif sprite == 'd':		   # d = start
+                    screen.blit(start, (x, y))
+                elif sprite == 'a':		   # a = arrival
+                    screen.blit(arrival, (x, y))
+                elif sprite == 'g':		   # g = guardian
+                    screen.blit(guardian, (x, y))
+                elif sprite == 'l':		   # l = needle
+                    screen.blit(needle, (x, y))
                 elif sprite == 't':		   # t = tube
                     screen.blit(tube, (x, y))
-                elif sprite == 's':		   # s = sortie
-                    screen.blit(seringue, (x, y))
+                elif sprite == 's':		   # s = exit
+                    screen.blit(syringe, (x, y))
                 num_case += 1
-            num_ligne += 1
+            num_line += 1
 
 # ----------------------------------------------------------------------------
 
@@ -92,14 +91,14 @@ class Player:
     """class creating player"""
 
     def __init__(self, image, level):
-        # Sprites du personnage
+        # Sprites of the player
         self.image_player = pygame.image.load(image).convert_alpha()
-        # Position du personnage en cases et en pixels
+        # Position of the player in cases and pixels
         self.case_x = 0
         self.case_y = 0
         self.x = 0
         self.y = 0
-        # Niveau dans lequel le personnage se trouve
+        # level where the player is
         self.level = level
         # bag of the player
         self.bag = []
@@ -107,67 +106,58 @@ class Player:
 
     def move(self, direction):
 
-        """moving player"""
+        """ moving player """
 
-        # Déplacement vers la droite
+        # RIGHT
         if direction == 'right':
-            # Pour ne pas dépasser l'écran
+            # checking we are staying into the screen
             if self.case_x < (max_sprites_size - 1):
-                # On vérifie que la case de destination n'est pas un mur
+                # checking destination case not a wall
                 if self.level.structure[self.case_y][self.case_x+1] != 'm':
-                    # Déplacement d'une case
+                    # moving one case
                     self.case_x += 1
-                    # Calcul de la position "réelle" en pixel
+                    # pixel position
                     self.x = self.case_x * sprite_size_pixel
 
-        # Déplacement vers la gauche
+        # LEFT
         if direction == 'left':
             if self.case_x > 0:
                 if self.level.structure[self.case_y][self.case_x-1] != 'm':
                     self.case_x -= 1
                     self.x = self.case_x * sprite_size_pixel
 
-        # Déplacement vers le haut
+        # UP
         if direction == 'up':
             if self.case_y > 0:
                 if self.level.structure[self.case_y-1][self.case_x] != 'm':
                     self.case_y -= 1
                     self.y = self.case_y * sprite_size_pixel
 
-        # Déplacement vers le bas
+        # DOWN
         if direction == 'down':
             if self.case_y < (max_sprites_size - 1):
                 if self.level.structure[self.case_y+1][self.case_x] != 'm':
                     self.case_y += 1
                     self.y = self.case_y * sprite_size_pixel
 
-        # Si objet recupération
+        # if objects at the case recovery in bag
         if self.level.structure[self.case_y][self.case_x] in objects_sprites:
-            # ajout de l'objet dans le sac
+            # add into the bag
             self.bag.append(self.level.structure[self.case_y][self.case_x])
-            # suppression de l'objet de la carte
+            # del objet of the map
             self.level.structure[self.case_y][self.case_x] = ""
-
-        # Si gardien et pas les 4 objets alors mort
-        if self.level.structure[self.case_y][self.case_x] == "g":
-            if len(self.bag) != 3:
-                print("C'est perdu !")
-
-        # Arrivée
-        if self.level.structure[self.case_y][self.case_x] == "g" and len(self.bag) == 3:
-            print("C'est GAGNE !")
 
 
 # ----------------------------------------------------------------------------
 
 class Button:
 
-    """ class d'objet boutton cliquables, placé, de taille prédéfinie avec texte centré """
+    """ objects buttons are surface clickable or not  """
 
-    def __init__(self, text, color, fontsize, emplacement, picture, picture_press, blankColor=None):
-        """ Button with attributs text, emplacement, pict, pict when the button is pressed"""
+    def __init__(self, text, color, fontsize, emplacement, picture, picture_press, blank_color=None):
+        """ Button with attributes: text, emplacement, pict, pict when the button is pressed"""
 
-        font = pygame.font.SysFont("arial", fontsize, bold, italique)
+        font = pygame.font.SysFont("arial", fontsize, bold, italic)
         self.text = text
         self.color = color
         self.font_size = fontsize
@@ -179,7 +169,7 @@ class Button:
         self.image = pygame.image.load(self.picturePress).convert()
         self.imageRect = self.image.get_rect().move(emplacement)
         self.positionText = ()
-        self.blankColor = blankColor
+        self.blank_color = blank_color
         # Center the text into the button
         xi, yi, width, height = self.imageRect.x, self.imageRect.y, self.imageRect.w, self.imageRect.height
         w, h = self.textRect.w, self.textRect.h
@@ -191,27 +181,27 @@ class Button:
 # ----------------------------------------------------------------------------
 
     def stick(self, surface, press=None):
-        """stick the button to the surface, pressed or not"""
+        """ blit the button to the surface, pressed or not """
 
-        font = pygame.font.SysFont("arial", self.font_size, bold, italique)
+        font = pygame.font.SysFont("arial", self.font_size, bold, italic)
 
         # if the button is pressed
         if press == "press":
             self.image = pygame.image.load(self.picturePress).convert()
-            self.image.set_colorkey(self.blankColor)
+            self.image.set_colorkey(self.blank_color)
             self.imageRect = self.image.get_rect().move(self.emplacement)
             surface.blit(self.image, self.imageRect)
-            if len(self.text.splitlines()) != 1:        # If the text got multiple lines
+            if len(self.text.splitlines()) != 1:  # If the text got multiple lines
                 xf, yf = self.imageRect.topleft
                 for ligne in self.text.splitlines():
                     print(xf, yf)
                     surface.blit(font.render(ligne, True, self.color), (xf, yf))
                     yf += self.font_size
             else:
-                surface.blit(self.textSurf, self.positionText)      # If text is just one word
+                surface.blit(self.textSurf, self.positionText)  # If text is just one word
         else:
             self.image = pygame.image.load(self.picture).convert()
-            self.image.set_colorkey(self.blankColor)
+            self.image.set_colorkey(self.blank_color)
             self.imageRect = self.image.get_rect().move(self.emplacement)
             surface.blit(self.image, self.imageRect)
             if len(self.text.splitlines()) != 1:

@@ -41,7 +41,7 @@ you if you distribute copies of the library or if you modify it.
 or for a fee, you must give the recipients all the rights that we gave
 you.  You must make sure that they, too, receive or can get the source
 code.  If you link other code with the library, you must provide
-complete object files to the recipients, so that they can relink them
+complete object fichiers to the recipients, so that they can relink them
 with the library after making changes to the library and recompiling
 it.  And you must show them these terms so they know their rights.
 
@@ -136,7 +136,7 @@ included without limitation in the term "modification".)
   "Source code" for a work means the preferred form of the work for
 making modifications to it.  For a library, complete source code means
 all the source code for all modules it contains, plus any associated
-interface definition files, plus the scripts used to control compilation
+interface definition fichiers, plus the scripts used to control compilation
 and installation of the library.
 
   Activities other than copying, distribution and modification are not
@@ -166,8 +166,8 @@ above, provided that you also meet all of these conditions:
 
     a) The modified work must itself be a software library.
 
-    b) You must cause the files modified to carry prominent notices
-    stating that you changed the files and the date of any change.
+    b) You must cause the fichiers modified to carry prominent notices
+    stating that you changed the fichiers and the date of any change.
 
     c) You must cause the whole of the work to be licensed at no
     charge to all third parties under the terms of this License.
@@ -249,17 +249,17 @@ contains portions of the Library), rather than a "work that uses the
 library".  The executable is therefore covered by this License.
 Section 6 states terms for distribution of such executables.
 
-  When a "work that uses the Library" uses material from a header file
+  When a "work that uses the Library" uses material from a header fichier
 that is part of the Library, the object code for the work may be a
 derivative work of the Library even though the source code is not.
 Whether this is true is especially significant if the work can be
 linked without the Library, or if the work is itself a library.  The
 threshold for this to be true is not precisely defined by law.
 
-  If such an object file uses only numerical parameters, data
+  If such an object fichier uses only numerical parameters, data
 structure layouts and accessors, and small macros and small inline
 functions (ten lines or less in length), then the use of the object
-file is unrestricted, regardless of whether it is legally a derivative
+fichier is unrestricted, regardless of whether it is legally a derivative
 work.  (Executables containing this object code plus portions of the
 Library will still fall under Section 6.)
 
@@ -291,7 +291,7 @@ of these things:
     uses the Library", as object code and/or source code, so that the
     user can modify the Library and then relink to produce a modified
     executable containing the modified Library.  (It is understood
-    that the user who changes the contents of definitions files in the
+    that the user who changes the contents of definitions fichiers in the
     Library will not necessarily be able to recompile the application
     to use the modified definitions.)
 
@@ -466,8 +466,8 @@ redistribution under these terms (or, alternatively, under the terms of the
 ordinary General Public License).
 
   To apply these terms, attach the following notices to the library.  It is
-safest to attach them to the start of each source file to most effectively
-convey the exclusion of warranty; and each file should have at least the
+safest to attach them to the start of each source fichier to most effectively
+convey the exclusion of warranty; and each fichier should have at least the
 "copyright" line and a pointer to where the full notice is found.
 
     <one line to give the library's name and a brief idea of what it does.>
