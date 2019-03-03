@@ -3,7 +3,11 @@
  
 import pygame
 import random
-from inputs import *
+from constants import *
+pygame.init()
+
+# ----------------------------------------------------------------------------
+
 
 class Level:
 
@@ -12,12 +16,12 @@ class Level:
     def __init__(self, file):
         self.file = file
         self.structure = []
-# ---------------------------------------------------------------------------------------------------------------------
+
     def generate(self):
 
         """generation from the map file of a structure of characters associated with the sprites"""
 
-        with open(self.file + ".txt", "r") as var_fichier:
+        with open(self.file + ".txt") as var_fichier:
             structure_niveau = []
             # On parcourt les lignes du fichier
             for ligne in var_fichier:
@@ -40,7 +44,7 @@ class Level:
                 if self.structure[ligne][column] == "c":
                     self.structure[ligne][column] = objects_sprites[k]
                     k += 1
-# ---------------------------------------------------------------------------------------------------------------------
+
     def display(self, screen):
 
         """ display of the level from structure and sprites"""
@@ -80,14 +84,16 @@ class Level:
                 num_case += 1
             num_ligne += 1
 
-# ---------------------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
+
+
 class Player:
 
     """class creating player"""
 
-    def __init__(self, image_player, level):
+    def __init__(self, image, level):
         # Sprites du personnage
-        self.image_player = pygame.image.load(image_player).convert_alpha()
+        self.image_player = pygame.image.load(image).convert_alpha()
         # Position du personnage en cases et en pixels
         self.case_x = 0
         self.case_y = 0
@@ -98,6 +104,7 @@ class Player:
         # bag of the player
         self.bag = []
 # ---------------------------------------------------------------------------------------------------------------------
+
     def move(self, direction):
 
         """moving player"""
@@ -144,21 +151,20 @@ class Player:
         # Si gardien et pas les 4 objets alors mort
         if self.level.structure[self.case_y][self.case_x] == "g":
             if len(self.bag) != 3:
-                # FIN DE BOUCLE #
-                continuer_jeu = 0
                 print("C'est perdu !")
 
         # Arrivée
-        if self.level.structure[self.case_y][self.case_x]== "g" and len(self.bag) == 3 :
+        if self.level.structure[self.case_y][self.case_x] == "g" and len(self.bag) == 3:
             print("C'est GAGNE !")
-            ### FIN DE BOUCLE ###
 
-# ---------------------------------------------------------------------------------------------------------------------
+
+# ----------------------------------------------------------------------------
+
 class Button:
 
     """ class d'objet boutton cliquables, placé, de taille prédéfinie avec texte centré """
 
-    def __init__(self, text, color, fontsize, emplacement, picture, picturePress, blankColor = None):
+    def __init__(self, text, color, fontsize, emplacement, picture, picture_press, blankColor=None):
         """ Button with attributs text, emplacement, pict, pict when the button is pressed"""
 
         font = pygame.font.SysFont("arial", fontsize, bold, italique)
@@ -169,20 +175,22 @@ class Button:
         self.textRect = self.textSurf.get_rect()
         self.emplacement = emplacement
         self.picture = picture
-        self.picturePress = picturePress
+        self.picturePress = picture_press
         self.image = pygame.image.load(self.picturePress).convert()
         self.imageRect = self.image.get_rect().move(emplacement)
         self.positionText = ()
         self.blankColor = blankColor
         # Center the text into the button
-        xi, yi, W, H = self.imageRect.x, self.imageRect.y, self.imageRect.w, self.imageRect.height
+        xi, yi, width, height = self.imageRect.x, self.imageRect.y, self.imageRect.w, self.imageRect.height
         w, h = self.textRect.w, self.textRect.h
         # final coordinates of the text rect
-        self.xf = xi + (W/2) - (w/2)
-        self.yf = yi + (H/2) - (h/2)
+        self.xf = xi + (width/2) - (w/2)
+        self.yf = yi + (height/2) - (h/2)
         self.positionText = self.xf, self.yf
-# ---------------------------------------------------------------------------------------------------------------------
-    def stick(self, surface, press = None):
+
+# ----------------------------------------------------------------------------
+
+    def stick(self, surface, press=None):
         """stick the button to the surface, pressed or not"""
 
         font = pygame.font.SysFont("arial", self.font_size, bold, italique)

@@ -6,7 +6,7 @@ scrSize = [450, 450]
 max_sprites_size = 15
 sprite_size_pixel = 30
 objects_sprites = ["l", "t", "s"]
-# ---------------------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
 # Buttons
 # font
 white = (255, 255, 255)
@@ -17,11 +17,11 @@ red = (255, 0, 0)
 fontColor = (232, 12, 214)
 fontSize = 60
 fsRules = 20
-bold ,italique = True, True
-blankColor = white
+bold, italique = True, True
+
 rules = "Welcome to the Mac Gyver game !\nYou need to find the 3 objects,\n\
-Before passing the gardian !\nLet's play !!!\n\n\n;)"
-# ---------------------------------------------------------------------------------------------------------------------
+Before passing the guardian !\nLet's play !!!\n\n\n;)"
+# ----------------------------------------------------------------------------
 # Positions
 position_b1 = 30, 340
 position_b2 = 260, 340
@@ -37,7 +37,7 @@ image_boutton = "resources/images/image.png"
 image_bout_press = "resources/images/image_c.png"
 image_rules = "resources/images/carre.png"
 image_rules2 = "resources/images/rules.png"
-# ---------------------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
 # List of game's images
 image_player = "resources/sprites/MacGyver.png"
 image_accueil = "resources/images/image_menu.jpg"
