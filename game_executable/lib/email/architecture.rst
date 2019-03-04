@@ -137,7 +137,7 @@ Since email messages are *primarily* text data, and operations on message data
 are primarily text operations (except for binary payloads of course), the model
 stores all text data as unicode strings.  Un-decodable binary inside text
 data is handled by using the `surrogateescape` error handler of the ASCII
-codec.  As with the binary fichiernames the error handler was introduced to
+codec.  As with the binary filenames the error handler was introduced to
 handle, this allows the email package to "carry" the binary data received
 during parsing along until the output stage, at which time it is regenerated
 in its original form.

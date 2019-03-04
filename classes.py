@@ -23,7 +23,7 @@ class Level:
 
         with open(self.fichier + ".txt") as var_fichier:
             structure_niveau = []
-            # Browse the lines of the fichiers
+            # Browse the lines of the file
             for ligne in var_fichier:
                 ligne_niveau = []
                 # Browse the sprites (letters) in the fichier

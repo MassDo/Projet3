@@ -1,4 +1,4 @@
-In order to create an executable, place the fichier setup.py into the repository "Projet3"
+In order to create an executable, place the file setup.py into the repository "Projet3"
 
 Open prompt and go to the projet3 repository,
 
