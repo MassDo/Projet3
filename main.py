@@ -1,6 +1,6 @@
 # coding:utf-8
 """ Main fichier """
-from buttons import *
+from modules.buttons import *
 
 # Screen ---------------------------------------------------------------------
 # The video mode is in the buttons.py fichier
