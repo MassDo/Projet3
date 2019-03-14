@@ -1,6 +1,7 @@
 # coding:utf-8
 """ Main fichier """
-from modules.buttons import *
+
+from modules.buttons import *  # pylint: disable=W0614
 
 # Screen ---------------------------------------------------------------------
 # The video mode is in the buttons.py fichier

@@ -3,7 +3,7 @@
  
 import pygame
 import random
-from modules.constants import *
+from modules.constants import *  # pylint: disable=unused-import
 pygame.init()
 
 # ----------------------------------------------------------------------------
