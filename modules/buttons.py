@@ -1,106 +1,100 @@
-""" fichier regrouping the button's instantiations
-for simplification of the main fichier """
 # coding:utf-8
-from modules.classes import *
+
+# Third party imports
+import pygame
+
+# Local application imports
+from modules.classes import Button
+import modules.constants as cons
+
+"""
+
+file regrouping the button's instantiations
+for simplification of the main file 
+"""
 
 # screen video mode
-scr = pygame.display.set_mode(scrSize)
+SCR = pygame.display.set_mode(cons.SCR_SIZE)
 
-# Buttons --------------------------------------------------------------------
+# Buttons
 # Menu Start
-b1 = Button("PLAY",
-            fontColor,
-            fontSize,
-            position_b1,
-            image_button,
-            image_bout_press,
-            white)
+B1 = Button("PLAY",
+            cons.FONT_COLOR,
+            cons.FONT_SIZE,
+            cons.POSITION_B1,
+            cons.IMAGE_BUTTON,
+            cons.IMAGE_BOUT_PRESS,
+            cons.WHITE)
 # Menu QUIT
-b2 = Button("QUIT",
-            fontColor,
-            fontSize,
-            position_b2,
-            image_button,
-            image_bout_press,
-            white)
+B2 = Button("QUIT",
+            cons.FONT_COLOR,
+            cons.FONT_SIZE,
+            cons.POSITION_B2,
+            cons.IMAGE_BUTTON,
+            cons.IMAGE_BOUT_PRESS,
+            cons.WHITE)
 # Menu Title
-b_title = Button("MacGyver",
-                 blue,
-                 fontSize,
-                 position_b_title,
-                 image_button,
-                 image_button,
-                 white)
-# Menu Rules
-b_rules = Button("Rules",
-                 fontColor,
-                 fsRules,
-                 position_b_rules,
-                 image_rules,
-                 image_rules,
-                 white)
-# Menu rules text
-b_rules2 = Button(rules,
-                  black,
+B_TITLE = Button("MacGyver",
+                 cons.BLUE,
+                 cons.FONT_SIZE,
+                 cons.POSITION_B_TITLE,
+                 cons.IMAGE_BUTTON,
+                 cons.IMAGE_BUTTON,
+                 cons.WHITE)
+# Menu RULES
+B_RULES = Button("RULES",
+                 cons.FONT_COLOR,
+                 cons.FS_RULES,
+                 cons.POSITION_B_RULES,
+                 cons.IMAGE_RULES,
+                 cons.IMAGE_RULES,
+                 cons.WHITE)
+# Menu RULES text
+B_RULES2 = Button(cons.RULES,
+                  cons.BLACK,
                   20,
-                  position_br2,
-                  image_rules2,
-                  image_rules2,
-                  black)
+                  cons.POSITION_BR2,
+                  cons.IMAGE_RULES2,
+                  cons.IMAGE_RULES2,
+                  cons.BLACK)
 # Level title
-b_level_title = Button("Levels",
-                       blue,
-                       fontSize,
-                       position_b_title,
-                       image_button,
-                       image_button,
-                       white)
+B_LEVEL_TITLE = Button("Levels",
+                       cons.BLUE,
+                       cons.FONT_SIZE,
+                       cons.POSITION_B_TITLE,
+                       cons.IMAGE_BUTTON,
+                       cons.IMAGE_BUTTON,
+                       cons.WHITE)
 # Level 1
-b_level1 = Button(" > Level 1",
-                  fontColor,
+B_LEVEL1 = Button(" > Level 1",
+                  cons.FONT_COLOR,
                   30,
-                  pos_level1,
-                  image_button,
-                  image_bout_press,
-                  white)
-# Level 2
-b_level2 = Button(" > Level 2",
-                  fontColor,
-                  30,
-                  pos_level2,
-                  image_button,
-                  image_bout_press,
-                  white)
-# Level back
-b_back = Button("Back",
-                fontColor,
-                20,
-                pos_back,
-                image_button,
-                image_button,
-                white)
-# End Menu
-b_menu = Button("MENU",
-                fontColor,
-                50,
-                position_b1,
-                image_button,
-                image_bout_press,
-                white)
-# End Win
-b_win = Button("YOU WIN !",
-               green,
-               fontSize,
-               (150, 150),
-               image_button,
-               image_button,
-               white)
-# End Lose
-b_lose = Button("YOU LOSE...",
-                red,
-                fontSize,
-                (150, 150),
-                image_button,
-                image_button,
-                white)
+                  cons.POS_LEVEL1,
+                  cons.IMAGE_BUTTON,
+                  cons.IMAGE_BOUT_PRESS,
+                  cons.WHITE)
 
+# End Menu
+B_MENU = Button("MENU",
+                cons.FONT_COLOR,
+                50,
+                cons.POSITION_B1,
+                cons.IMAGE_BUTTON,
+                cons.IMAGE_BOUT_PRESS,
+                cons.WHITE)
+# End Win
+B_WIN = Button("YOU WIN !",
+               cons.GREEN,
+               cons.FONT_SIZE,
+               (150, 150),
+               cons.IMAGE_BUTTON,
+               cons.IMAGE_BUTTON,
+               cons.WHITE)
+# End Lose
+B_LOSE = Button("YOU LOSE...",
+                cons.RED,
+                cons.FONT_SIZE,
+                (150, 150),
+                cons.IMAGE_BUTTON,
+                cons.IMAGE_BUTTON,
+                cons.WHITE)

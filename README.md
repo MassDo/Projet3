@@ -1,19 +1,19 @@
 
 # MacGyver game
 ----------------
-*Français*
+*Franï¿½ais*
 
-Étant un grand fan de Richard Dean Anderson, vous imaginez un labyrinthe 2D dans lequel MacGyver 
-aurait été enfermé. La sortie est surveillée par un garde du corps dont la coiffure ferait pâlir Tina Turner. 
-Pour le distraire, il vous faut réunir les éléments suivants (dispersés dans le labyrinthe) : 
-une aiguille, un petit tube en plastique et de l'éther. 
-Ils permettront à MacGyver de créer une seringue et d'endormir notre garde.
+ï¿½tant un grand fan de Richard Dean Anderson, vous imaginez un labyrinthe 2D dans lequel MacGyver 
+aurait ï¿½tï¿½ enfermï¿½. La sortie est surveillï¿½e par un garde du corps dont la coiffure ferait pï¿½lir Tina Turner. 
+Pour le distraire, il vous faut rï¿½unir les ï¿½lï¿½ments suivants (dispersï¿½s dans le labyrinthe) : 
+une aiguille, un petit tube en plastique et de l'ï¿½ther. 
+Ils permettront ï¿½ MacGyver de crï¿½er une seringue et d'endormir notre garde.
 
 *English*
 
 You're a big (crazy) fan of Richard Dean Anderson. You create a 2D maze where McGyver would be locked up. The exit is garded by
 a bodyguard that looks like he's a big fan of Tina Turner haircut... To get him out of his way McGyver will have to collect
-somes equipments scattered in the labyrinth (a needle, a plastic pipe and a bottle of ether). With this home made syringe
+somes equipments scatteRED in the labyrinth (a needle, a plastic pipe and a bottle of ether). With this home made syringe
 the guard will fall asleep and let Mac retrieve his freedom !
 
 

@@ -1,40 +1,53 @@
 # coding:utf-8
-""" Main fichier """
 
-from modules.buttons import *  # pylint: disable=W0614
+# Third party imports
+import pygame
 
-# Screen ---------------------------------------------------------------------
+# Local application imports
+from modules.classes import Level, Player
+import modules.buttons as but
+import modules.constants as cons
+
+
+
+""" 
+
+Main file
+
+"""
+
+# Screen
 # The video mode is in the buttons.py fichier
-home = pygame.image.load(image_home).convert()  # Back screen home image
-pygame.display.set_caption(title_screen)  # Window title
-surf_player = pygame.image.load(image_player).convert_alpha()
+home = pygame.image.load(cons.IMAGE_HOME).convert()  # Back screen home image
+pygame.display.set_caption(cons.TITLE_SCREEN)  # Window title
+surf_player = pygame.image.load(cons.IMAGE_PLAYER).convert_alpha()
 pygame.display.set_icon(surf_player)  # Window icon
 
-# MAIN LOOP ------------------------------------------------------------------
+# MAIN LOOP
 launched_main = 1
 while launched_main:
     launched_main_game = 1
     launched_main_home = 1
     level_launched = 1
-    # BOUCLE D'home -------------------------------------------------------
+    # BOUCLE D'home
     while launched_main_home:
         # Speed limitation and mouse position
         pygame.time.Clock().tick(100)
         mouse = pygame.mouse.get_pos()
-        scr.blit(home, (0, 0))
-        b_title.stick(scr)
-        b_rules.stick(scr)
-        b1.stick(scr)  # non pressed button
-        b2.stick(scr)
+        but.SCR.blit(home, (0, 0))
+        but.B_TITLE.stick(but.SCR)
+        but.B_RULES.stick(but.SCR)
+        but.B1.stick(but.SCR)  # non pressed button
+        but.B2.stick(but.SCR)
         # PLAY
-        if b1.imageRect.collidepoint(mouse):
-            b1.stick(scr, "press")
+        if but.B1.imageRect.collidepoint(mouse):
+            but.B1.stick(but.SCR, "press")
         # QUIT
-        if b2.imageRect.collidepoint(mouse):
-            b2.stick(scr, "press")
+        if but.B2.imageRect.collidepoint(mouse):
+            but.B2.stick(but.SCR, "press")
         # RULES
-        if b_rules.imageRect.collidepoint(mouse):
-            b_rules2.stick(scr)
+        if but.B_RULES.imageRect.collidepoint(mouse):
+            but.B_RULES2.stick(but.SCR)
         for event in pygame.event.get():
             # Exit conditions
             if event.type == pygame.QUIT or event.type == pygame.KEYDOWN \
@@ -47,29 +60,27 @@ while launched_main:
             choice = 0
             # If button UP
             if event.type == pygame.MOUSEBUTTONUP and event.button == 1:
-                if b1.imageRect.collidepoint(mouse):
-                    b1.stick(scr, "press")
+                if but.B1.imageRect.collidepoint(mouse):
+                    but.B1.stick(but.SCR, "press")
                     launched_main_home = 0
                     choice = 'resources/maps/n1'
-                if b2.imageRect.collidepoint(mouse):
-                    b2.stick(scr, "press")
+                if but.B2.imageRect.collidepoint(mouse):
+                    but.B2.stick(but.SCR, "press")
                     launched_main_home = 0
                     launched_main_game = 0
                     launched_main = 0
         pygame.display.flip()
-    # ------------------------------------------------------------------------
-    # Features Levels
-    # ------------------------------------------------------------------------
+
     # Loading background
-    fond = pygame.image.load(image_fond).convert()
-    fond.fill(black)
+    fond = pygame.image.load(cons.IMAGE_FOND).convert()
+    fond.fill(cons.BLACK)
     # Level generation
     level = Level(choice)
     level.generate()
-    level.display(scr)
+    level.display(but.SCR)
     # player generation
-    mac_giver = Player(image_player, level)
-    # GAME LOOP --------------------------------------------------------------
+    mac_giver = Player(cons.IMAGE_PLAYER, level)
+    # GAME LOOP
     win_lose = False
     while launched_main_game:
         # Loop speed limitation
@@ -93,39 +104,39 @@ while launched_main:
                 elif event.key == pygame.K_DOWN and win_lose is False:
                     mac_giver.move('down')
             # display character at new position
-            scr.blit(fond, (0, 0))
-            level.display(scr)
-            scr.blit(mac_giver.image_player, (mac_giver.x, mac_giver.y))
+            but.SCR.blit(fond, (0, 0))
+            level.display(but.SCR)
+            but.SCR.blit(mac_giver.IMAGE_PLAYER, (mac_giver.x, mac_giver.y))
             pygame.display.flip()
-            # End-------------------------------------------------------------
+            # End
             # Win
             if level.structure[mac_giver.case_y][mac_giver.case_x] == 'a':
                 win_lose = True
-                b_win.stick(scr)
-                b_menu.stick(scr)
-                b2.stick(scr)
+                but.B_WIN.stick(but.SCR)
+                but.B_MENU.stick(but.SCR)
+                but.B2.stick(but.SCR)
             # Lose
             if level.structure[mac_giver.case_y][mac_giver.case_x] == 'g' and \
                     len(mac_giver.bag) != 3:
                 win_lose = True
-                b_lose.stick(scr)
-                b_menu.stick(scr)
-                b2.stick(scr)
+                but.B_LOSE.stick(but.SCR)
+                but.B_MENU.stick(but.SCR)
+                but.B2.stick(but.SCR)
             # MENU
             # win_lose true if game is finished
-            if b_menu.imageRect.collidepoint(mouse) and win_lose:
-                b_menu.stick(scr, "press")
+            if but.B_MENU.imageRect.collidepoint(mouse) and win_lose:
+                but.B_MENU.stick(but.SCR, "press")
             # QUIT
-            if b2.imageRect.collidepoint(mouse) and win_lose:
-                b2.stick(scr, "press")
+            if but.B2.imageRect.collidepoint(mouse) and win_lose:
+                but.B2.stick(but.SCR, "press")
             # MOUSE LEFT CLICK UP
             if event.type == pygame.MOUSEBUTTONUP and event.button == 1 and \
                     win_lose:  # If button UP
-                if b_menu.imageRect.collidepoint(mouse):
-                    b_menu.stick(scr, "press")
+                if but.B_MENU.imageRect.collidepoint(mouse):
+                    but.B_MENU.stick(but.SCR, "press")
                     launched_main_game = 0
-                if b2.imageRect.collidepoint(mouse):
-                    b2.stick(scr, "press")
+                if but.B2.imageRect.collidepoint(mouse):
+                    but.B2.stick(but.SCR, "press")
                     launched_main_home = 0
                     launched_main_game = 0
                     launched_main = 0
