@@ -1,4 +1,7 @@
 # coding:utf-8
+# pylint: disable=invalid-name
+# pylint: disable=no-member
+# pylint: disable=missing-docstring
 
 # Third party imports
 import pygame
@@ -9,15 +12,10 @@ import modules.buttons as but
 import modules.constants as cons
 
 
-
-""" 
-
-Main file
-
-"""
+""" Main file"""
 
 # Screen
-# The video mode is in the buttons.py fichier
+# The video mode is in the buttons.py file
 home = pygame.image.load(cons.IMAGE_HOME).convert()  # Back screen home image
 pygame.display.set_caption(cons.TITLE_SCREEN)  # Window title
 surf_player = pygame.image.load(cons.IMAGE_PLAYER).convert_alpha()
@@ -40,13 +38,13 @@ while launched_main:
         but.B1.stick(but.SCR)  # non pressed button
         but.B2.stick(but.SCR)
         # PLAY
-        if but.B1.imageRect.collidepoint(mouse):
+        if but.B1.image_rect.collidepoint(mouse):
             but.B1.stick(but.SCR, "press")
         # QUIT
-        if but.B2.imageRect.collidepoint(mouse):
+        if but.B2.image_rect.collidepoint(mouse):
             but.B2.stick(but.SCR, "press")
         # RULES
-        if but.B_RULES.imageRect.collidepoint(mouse):
+        if but.B_RULES.image_rect.collidepoint(mouse):
             but.B_RULES2.stick(but.SCR)
         for event in pygame.event.get():
             # Exit conditions
@@ -60,11 +58,11 @@ while launched_main:
             choice = 0
             # If button UP
             if event.type == pygame.MOUSEBUTTONUP and event.button == 1:
-                if but.B1.imageRect.collidepoint(mouse):
+                if but.B1.image_rect.collidepoint(mouse):
                     but.B1.stick(but.SCR, "press")
                     launched_main_home = 0
                     choice = 'resources/maps/n1'
-                if but.B2.imageRect.collidepoint(mouse):
+                if but.B2.image_rect.collidepoint(mouse):
                     but.B2.stick(but.SCR, "press")
                     launched_main_home = 0
                     launched_main_game = 0
@@ -106,7 +104,7 @@ while launched_main:
             # display character at new position
             but.SCR.blit(fond, (0, 0))
             level.display(but.SCR)
-            but.SCR.blit(mac_giver.IMAGE_PLAYER, (mac_giver.x, mac_giver.y))
+            but.SCR.blit(mac_giver.image_player, (mac_giver.x_value, mac_giver.y_value))
             pygame.display.flip()
             # End
             # Win
@@ -124,18 +122,18 @@ while launched_main:
                 but.B2.stick(but.SCR)
             # MENU
             # win_lose true if game is finished
-            if but.B_MENU.imageRect.collidepoint(mouse) and win_lose:
+            if but.B_MENU.image_rect.collidepoint(mouse) and win_lose:
                 but.B_MENU.stick(but.SCR, "press")
             # QUIT
-            if but.B2.imageRect.collidepoint(mouse) and win_lose:
+            if but.B2.image_rect.collidepoint(mouse) and win_lose:
                 but.B2.stick(but.SCR, "press")
             # MOUSE LEFT CLICK UP
             if event.type == pygame.MOUSEBUTTONUP and event.button == 1 and \
                     win_lose:  # If button UP
-                if but.B_MENU.imageRect.collidepoint(mouse):
+                if but.B_MENU.image_rect.collidepoint(mouse):
                     but.B_MENU.stick(but.SCR, "press")
                     launched_main_game = 0
-                if but.B2.imageRect.collidepoint(mouse):
+                if but.B2.image_rect.collidepoint(mouse):
                     but.B2.stick(but.SCR, "press")
                     launched_main_home = 0
                     launched_main_game = 0

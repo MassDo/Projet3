@@ -2,6 +2,7 @@
   <dictionary name="doria">
     <words>
       <w>gyver</w>
+      <w>pylint</w>
       <w>scrsize</w>
     </words>
   </dictionary>

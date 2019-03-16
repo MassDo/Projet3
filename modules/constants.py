@@ -1,9 +1,6 @@
 # coding:utf-8
 
-"""
-constants of the programme
-
-"""
+""" constants of the programme """
 
 # window parameters
 TITLE_SCREEN = "Mac Gyver Game"
@@ -52,4 +49,3 @@ IMAGE_GUARDIAN = "resources/sprites/guardian.png"
 IMAGE_NEEDLE = "resources/sprites/needle.png"
 IMAGE_TUBE = "resources/sprites/tube.png"
 IMAGE_SYRINGE = "resources/sprites/syringe.png"
-

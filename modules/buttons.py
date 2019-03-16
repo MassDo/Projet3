@@ -1,4 +1,5 @@
 # coding:utf-8
+# pylint: disable=missing-docstring
 
 # Third party imports
 import pygame
@@ -7,11 +8,10 @@ import pygame
 from modules.classes import Button
 import modules.constants as cons
 
-"""
 
-file regrouping the button's instantiations
-for simplification of the main file 
-"""
+""" file regrouping the button's instantiations
+for simplification of the main file """
+
 
 # screen video mode
 SCR = pygame.display.set_mode(cons.SCR_SIZE)
