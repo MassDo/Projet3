@@ -2,35 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7beaaff-e626-4e65-bebf-e90c6e04d729" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/doria.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/doria.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Présentation/Document_descriptif.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/resources/Présentation/Document_descriptif.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Présentation/PrésentationProjet3.odp" beforeDir="false" afterPath="$PROJECT_DIR$/resources/Présentation/PrésentationProjet3.odp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/images/carre.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/carre.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/images/image.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/images/image_c.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/image_c.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/images/image_menu.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/image_menu.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/images/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/images/rules.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/rules.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/maps/n1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/maps/n1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/maps/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/resources/maps/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/sprites/arrival.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sprites/arrival.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/sprites/ether.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sprites/ether.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/sprites/fond.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sprites/fond.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/sprites/guardian.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sprites/guardian.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/sprites/home.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sprites/home.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/sprites/license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sprites/license.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/sprites/needle.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sprites/needle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/sprites/player.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sprites/player.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/sprites/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sprites/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/sprites/start.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sprites/start.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/sprites/syringe.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sprites/syringe.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/sprites/tube.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sprites/tube.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/sprites/wall.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sprites/wall.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/buttons.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/buttons.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/classes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirement.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/Présentation/PrésentationProjet3.odp" beforeDir="false" afterPath="$PROJECT_DIR$/resources/Présentation/PrésentationProjet3.odp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1230">
-              <caret line="82" column="29" lean-forward="true" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#133#146#0" expanded="true" />
               </folding>
@@ -52,14 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/buttons.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
-              <folding>
-                <element signature="e#38#51#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -67,12 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/classes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1620">
-              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-              <folding>
-                <element signature="e#43#56#0" expanded="true" />
-                <element signature="e#6611#8128#0" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -80,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/constants.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+            <state relative-caret-position="45">
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -160,23 +132,24 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/modules/buttons.py" />
-        <option value="$PROJECT_DIR$/modules/constants.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/modules/classes.py" />
+        <option value="$PROJECT_DIR$/modules/buttons.py" />
+        <option value="$PROJECT_DIR$/modules/constants.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="width" value="980" />
-    <option name="height" value="1031" />
+    <option name="x" value="-12" />
+    <option name="width" value="981" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,7 +161,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,40 +243,33 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modules/constants.py">
+    <entry file="file://$PROJECT_DIR$/modules/buttons.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="82" column="29" lean-forward="true" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
-          <folding>
-            <element signature="e#133#146#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/classes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1620">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding>
-            <element signature="e#43#56#0" expanded="true" />
-            <element signature="e#6611#8128#0" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/buttons.py">
+    <entry file="file://$PROJECT_DIR$/modules/constants.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+        <state relative-caret-position="45">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
-            <element signature="e#38#51#0" expanded="true" />
+            <element signature="e#133#146#0" expanded="true" />
           </folding>
         </state>
       </provider>

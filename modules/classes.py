@@ -13,7 +13,11 @@ import pygame
 # Local application imports
 import modules.constants as cons
 
-""" Classes of the game Mc giver """
+""" 
+
+Classes of the game Mc giver
+
+"""
 
 pygame.init()
 

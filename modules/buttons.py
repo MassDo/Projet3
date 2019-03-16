@@ -9,8 +9,12 @@ from modules.classes import Button
 import modules.constants as cons
 
 
-""" file regrouping the button's instantiations
-for simplification of the main file """
+""" 
+
+Module regrouping the button's instantiations
+for simplification of the main file
+ 
+"""
 
 
 # screen video mode

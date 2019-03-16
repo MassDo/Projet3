@@ -12,7 +12,10 @@ import modules.buttons as but
 import modules.constants as cons
 
 
-""" Main file"""
+"""
+Main file
+
+"""
 
 # Screen
 # The video mode is in the buttons.py file

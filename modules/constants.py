@@ -1,6 +1,9 @@
 # coding:utf-8
 
-""" constants of the programme """
+"""
+Constants of the programme
+
+"""
 
 # window parameters
 TITLE_SCREEN = "Mac Gyver Game"
