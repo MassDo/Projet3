@@ -8,14 +8,12 @@ import pygame
 from modules.classes import Button
 import modules.constants as cons
 
-
 """ 
 
 Module regrouping the button's instantiations
 for simplification of the main file
  
 """
-
 
 # screen video mode
 SCR = pygame.display.set_mode(cons.SCR_SIZE)
@@ -102,3 +100,35 @@ B_LOSE = Button("YOU LOSE...",
                 cons.IMAGE_BUTTON,
                 cons.IMAGE_BUTTON,
                 cons.WHITE)
+# number of objects collected
+B_SCORE0 = Button("Objects: 0/3",
+                  cons.WHITE,
+                  20,
+                  (305, -30),
+                  cons.IMAGE_BUTTON,
+                  cons.IMAGE_BUTTON,
+                  cons.WHITE)
+
+B_SCORE1 = Button("Objects: 1/3",
+                  cons.WHITE,
+                  20,
+                  (305, -30),
+                  cons.IMAGE_BUTTON,
+                  cons.IMAGE_BUTTON,
+                  cons.WHITE)
+
+B_SCORE2 = Button("Objects: 2/3",
+                  cons.WHITE,
+                  20,
+                  (305, -30),
+                  cons.IMAGE_BUTTON,
+                  cons.IMAGE_BUTTON,
+                  cons.WHITE)
+
+B_SCORE3 = Button("Objects: 3/3",
+                  cons.GREEN,
+                  20,
+                  (305, -30),
+                  cons.IMAGE_BUTTON,
+                  cons.IMAGE_BUTTON,
+                  cons.WHITE)

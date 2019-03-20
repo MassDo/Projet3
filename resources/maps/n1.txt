@@ -1,6 +1,6 @@
-dcccccccccccccm
-cmccccmmmmmmccm
-cmcccccccmccccm
+dccccmmmmmmmmmm
+cmccccmcmmmmccm
+cmcmcccccmccccm
 cmcmmmcccccmccm
 cmcccmmmmcccccc
 ccmcccccmmmmccc

@@ -81,6 +81,7 @@ while launched_main:
     level.display(but.SCR)
     # player generation
     mac_giver = Player(cons.IMAGE_PLAYER, level)
+
     # GAME LOOP
     win_lose = False
     while launched_main_game:
@@ -141,5 +142,14 @@ while launched_main:
                     launched_main_home = 0
                     launched_main_game = 0
                     launched_main = 0
+            # if length of bag == 0
+            if len(mac_giver.bag) == 0:
+                but.B_SCORE0.stick(but.SCR)
+            elif len(mac_giver.bag) == 1:
+                but.B_SCORE1.stick(but.SCR)
+            elif len(mac_giver.bag) == 2:
+                but.B_SCORE2.stick(but.SCR)
+            elif len(mac_giver.bag) == 3:
+                but.B_SCORE3.stick(but.SCR)
 
             pygame.display.flip()
