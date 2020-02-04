@@ -39,7 +39,7 @@ IMAGE_ICON = "resources/sprites/player.png"
 IMAGE_BUTTON = "resources/images/image.png"
 IMAGE_BOUT_PRESS = "resources/images/image_c.png"
 IMAGE_RULES = "resources/images/carre.png"
-IMAGE_RULES2 = "resources/images/RULES.png"
+IMAGE_RULES2 = "resources/images/rules.png"
 
 # List of game's images
 IMAGE_PLAYER = "resources/sprites/player.png"
